@@ -42,8 +42,14 @@
     <div class="container-fluid intro" id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>Bacon ipsum dolor amet corned beef chuck aliqua aute leberkas. Labore kielbasa ad swine beef meatball shank pig pork sunt. Duis doner tri-tip, sint officia andouille eu proident turkey excepteur laborum est biltong laboris pork belly. Do incididunt prosciutto, fugiat reprehenderit in excepteur ut short ribs aliqua spare ribs chicken turducken commodo officia. Officia nulla consequat ut. Spare ribs drumstick sint non pastrami. Ipsum velit ribeye nisi buffalo deserunt shank.</p>
-        
+            <p>I'm a self taught web developer from Addison, TX I'm currently learning to be a Full Stack Web Developer at SMU Coding Bootcamp and Treehouse. I also have a degree in Criminal Justice. However, I am a weird mix of being both techy and creative so I can't wait till I get to the point where I can jump into the more front-end and UI/UX development and put what I'm learning to good use. But for now I'm having fun learning the basics!.</p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="resume.html">
+                        Click Here for Resume
+                    </button>
+        </div>
+    </div>
         </div>
     </div>
 
@@ -57,7 +63,11 @@
                             <h5 class="card-title" style="text-align:center;">Web Development</h5>
                             <hr>
                             <h6 class="subtitle"mb-2 text-muted style="text-align:center;">Coding and Markup Languages</h6>
-                            <p class="card-text" style="text-align:center;">Incididunt strip steak hamburger sunt, pariatur in brisket magna tongue swine eu pork belly occaecat drumstick. Officia elit pancetta commodo. Quis duis elit consectetur, short ribs buffalo sirloin qui ut dolor. Minim dolore deserunt, anim lorem venison meatloaf.</p>
+                            <p class="card-text" style="text-align:center;">
+                            <img src="https://png.icons8.com/color/50/000000/html-5.png"><img src="https://png.icons8.com/color/50/000000/css3.png">
+                            <img src="https://png.icons8.com/ios/50/000000/javascript-filled.png"><img src="https://png.icons8.com/color/50/000000/nodejs.png">
+                            <img src="https://png.icons8.com/ios/50/000000/jquery-filled.png"> "JQUERY"
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -68,23 +78,26 @@
                             <h5 class="card-title" style="text-align:center;">Digital Artistry and Design</h5>
                             <hr>
                             <h6 class="subtitle"mb-2 text-muted style="text-align:center;">Adept in digital design and art</h6>
-                            <p class="card-text" style="text-align:center;">Incididunt strip steak hamburger sunt, pariatur in brisket magna tongue swine eu pork belly occaecat drumstick. Officia elit pancetta commodo. Quis duis elit consectetur, short ribs buffalo sirloin qui ut dolor. Minim dolore deserunt, anim lorem venison meatloaf.</p>
+                            <p class="card-text" style="text-align:center;">I am a self-taught digital artist with some experience in traditional art including charcoal and pencil art. The tools I use for my is Adobe Photoshop and Paint Tool Sai. I am well verse in Adode Photoshop and Illustrator with a some experience in InDesign and Dreamweaver. I am also learning how to use Google Analytics and logo design.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/img/plh.jpg" alt="cardtop" style="width:286px; height:180px;">
+                        <img class="card-img-top" src="assets/img/software.jpg" alt="cardtop" style="width:286px; height:180px;">
                         <div class="card-body">
-                            <h5 class="card-title" style="text-align:center;">Bacon For Now</h5>
+                            <h5 class="card-title" style="text-align:center;">Computer Technoloy and Software knowledge</h5>
                             <hr>
-                            <h6 class="subtitle"mb-2 text-muted style="text-align:center;">TBD</h6>
-                            <p class="card-text" style="text-align:center;">Incididunt strip steak hamburger sunt, pariatur in brisket magna tongue swine eu pork belly occaecat drumstick. Officia elit pancetta commodo. Quis duis elit consectetur, short ribs buffalo sirloin qui ut dolor. Minim dolore deserunt, anim lorem venison meatloaf.</p>
+                            <h6 class="subtitle"mb-2 text-muted style="text-align:center;">Well versed on various windows software and hardware technology</h6>
+                            <p class="card-text" style="text-align:center;">When it comes to computer software and hardware I am very well verse and a quick learner when it comes to tech. So far I taught myself how to use Adobe Photoshop and Illustrator. And I am extremely adept in using Microsoft Office Suite. .</p>
                         </div>
                     </div>
+                        </div>
                     </div>
-                </div>
-            </div>   
+            </div>-->   
+
+       
+         <div id="portfolio" class="row cover">
 
             <div class="container-fluid portfolio" id="portfolio">
                 <div class="container cf">
@@ -99,6 +112,8 @@
                     </div>
                 </div>
             </div>
+
+
 
             <div class="container-fluid contact" id="contact">
                 <div class="container">
@@ -122,7 +137,11 @@
                 </div>
             </footer>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
 <script  src="assets/js/index.js"></script>
+<script>$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })</script>
   
     
 </body>
