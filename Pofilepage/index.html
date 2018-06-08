@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Henny+Penny|Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
   
 </head>
@@ -43,20 +44,15 @@
         <div class="container">
             <h2>About Me</h2>
             <p>I'm a self taught web developer from Addison, TX I'm currently learning to be a Full Stack Web Developer at SMU Coding Bootcamp and Treehouse. I also have a degree in Criminal Justice. However, I am a weird mix of being both techy and creative so I can't wait till I get to the point where I can jump into the more front-end and UI/UX development and put what I'm learning to good use. But for now I'm having fun learning the basics!.</p>
-            <div class="row">
-                <div class="col-sm-6">
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="resume.html">
-                        Click Here for Resume
-                    </button>
+        
         </div>
     </div>
-        </div>
-    </div>
-
+    <br>
         <div class="container-fluid features" id="skills">
-            <div class="container cf">
+            <div class="container-fluid cf">
                 <h2>Skills &amp; Experience</h2>
-                <div class="col-3">
+                <br>
+                <div class="card-deck"><!--card1-->
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="assets/img/cod.jpg" alt="cardtop" style="width:286px; height:180px;">
                         <div class="card-body">
@@ -64,14 +60,15 @@
                             <hr>
                             <h6 class="subtitle"mb-2 text-muted style="text-align:center;">Coding and Markup Languages</h6>
                             <p class="card-text" style="text-align:center;">
-                            <img src="https://png.icons8.com/color/50/000000/html-5.png"><img src="https://png.icons8.com/color/50/000000/css3.png">
-                            <img src="https://png.icons8.com/ios/50/000000/javascript-filled.png"><img src="https://png.icons8.com/color/50/000000/nodejs.png">
+                            <img src="https://png.icons8.com/color/50/000000/html-5.png">
+                            <img src="https://png.icons8.com/color/50/000000/css3.png">
+                            <img src="https://png.icons8.com/ios/50/000000/javascript-filled.png">
+                            <img src="https://png.icons8.com/color/50/000000/nodejs.png">
                             <img src="https://png.icons8.com/ios/50/000000/jquery-filled.png"> "JQUERY"
                             </p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-3">
+                    </div><!--end card1-->
+
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="assets/img/cardtop1.jpg" alt="cardtop" style="width:286px; height:180px;">
                         <div class="card-body">
@@ -81,8 +78,7 @@
                             <p class="card-text" style="text-align:center;">I am a self-taught digital artist with some experience in traditional art including charcoal and pencil art. The tools I use for my is Adobe Photoshop and Paint Tool Sai. I am well verse in Adode Photoshop and Illustrator with a some experience in InDesign and Dreamweaver. I am also learning how to use Google Analytics and logo design.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-3">
+
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="assets/img/software.jpg" alt="cardtop" style="width:286px; height:180px;">
                         <div class="card-body">
@@ -92,13 +88,43 @@
                             <p class="card-text" style="text-align:center;">When it comes to computer software and hardware I am very well verse and a quick learner when it comes to tech. So far I taught myself how to use Adobe Photoshop and Illustrator. And I am extremely adept in using Microsoft Office Suite. .</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>   
+        <br>
+         <!--   <div id="portfolio" class="row cover">
+                <h2 class="text-center" id="porfolio-btn">My Portfolio</h2>
+                <div class="container">
+                    <div class="row portfolio=project"><!--Project Row 1
+                        <div class="col-lg-6"><!--first side
+                            <div class="row">
+                                <div class="col-sm-5 text-center">
+                                    <h4 class="portfolio-projects--title">Rick and Morty Hangman</h4>
+                                    <p class="portfolio-projects--desc">Hangman but with Rick and Morty Characters</p>
+                                    <p class="portfolio-projects--desc">Uses: Javascript, Jquery, Bootstrap</p>
+                                    <a class="btn btn-rounded portfolio-projects--btn" href="#" role="button">View Project</a>
+                                </div>
+                                <div class="col-sm-7 text-center">
+                                    <img class="portfolio-projects--image" src="assets/img/plh.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6"><!--2nd side project
+                            <div class="row">
+                                <div class="col-sm-5 text-center pull-right sm"><!--flipped on small, unflipped lrg-
+                                    <h4 class="portfolio-projects--title">Geeky and Melinated</h4>
+                                    <p class="portfolio-projects--desc">A Women of color gamer and geek</p>
+                                    <p class="portfolio-projects--desc">Uses: Pencil, Paint Tool Sai , Photoshop</p>
+                                    <a class="btn btn-rounded portfolio-projects--btn" href="#" role="button">View Project</a>
+                                </div>
+                                <div class="col-sm-7 text-center">
+                                    <img class="portfolio-projects--image" src="assets/img/geekmel.jpg">
+                                </div>
+                            </div>
                         </div>
                     </div>
-            </div>-->   
-
-       
-         <div id="portfolio" class="row cover">
-
+                </div>
+            </div> -->   
             <div class="container-fluid portfolio" id="portfolio">
                 <div class="container cf">
                     <h2>My Work</h2>
@@ -136,12 +162,10 @@
                     <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
                 </div>
             </footer>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
-<script  src="assets/js/index.js"></script>
-<script>$('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-  })</script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+            
+            <script  src="assets/js/index.js"></script>
   
     
 </body>

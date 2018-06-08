@@ -1,7 +1,3 @@
-$('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-  })
-
 $("nav ul").hide();
 
 $(".nav-toggle").click(function(){
