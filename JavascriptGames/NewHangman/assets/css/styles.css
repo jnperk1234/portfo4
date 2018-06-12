@@ -1,0 +1,73 @@
+body {
+  height: 100%;
+  text-align: center;
+  background-color: rgb(12, 77, 52)
+}
+
+.title {
+  color: #fff;
+  font-size: 1.6em;
+}
+
+h1, h2, h3 {
+  color: #fff;
+  margin-top: 4px;
+}
+
+hr {
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+}
+
+/*Title*/
+
+
+/*Word Related*/
+
+.info {
+  margin: 15px 0;
+}
+
+#categoryName {
+  font-size: 1.8em;
+  margin: 30px 0;
+}
+
+.well {
+  margin: 40px;
+  color: black;
+}
+#guessed {
+padding-top: 20px;
+font-size: 1.2em;
+}
+
+#word {
+  margin: 0;
+  padding: 20px;
+}
+#word li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#tries {
+  /*margin: 40px;*/
+}
+
+/*Classy Button*/
+
+#reset {
+  margin-bottom: 20px;
+  color: #fff;
+  background: rgb(9, 88, 69);
+}
+#reset:hover {
+  background: rgb(9, 88, 69);
+}

@@ -56,19 +56,26 @@ h1, h2, h3, h4, h5, h6, ul, ol, p {
       max-width: 996px;
   }
 
-  @keyframes show-header {
-      0% {
-          top: -4em;
-          opacity: 0;
-      }
-      100% {
-          top: 0;
-          opacity: 1;
-      }
-      
-  }
 
-  nav {
+  .navbar-expand-lg .navbar-nav.side-nav{flex-direction: column;
+}
+  .header-top{box-shadow: 0 3px 5px rgba(0,0,0,.1)
+}
+  .leftmenutrigger{display: none
+}
+  @media(min-width:992px) {
+  .leftmenutrigger{display: block;display: block;margin: 7px 20px 4px 0;cursor: pointer;
+}
+
+}
+  .navbar-nav.side-nav.open {left:0;
+}
+  .navbar-nav.side-nav{background: #585f66;box-shadow: 2px 1px 2px rgba(0,0,0,.1);position:fixed;top:56px;flex-direction: column!important;left:-220px;width:200px;overflow-y:auto;bottom:0;overflow-x:hidden;padding-bottom:40px}
+  }
+  .animate{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+
+
+  /*nav {
       background-color: #fff;
       box-shadow: 0 2px 2px rgba(0,0,0,.45);
       position: relative;
@@ -127,7 +134,7 @@ nav.sticky {
    position: fixed;
    top: 0;
    width: 100%; 
-}
+}*/
 
 .splash {
     background: linear-gradient(rgba(44, 62, 80, 0.65), rgba(52, 152, 219, 0.65)),
@@ -145,9 +152,15 @@ nav.sticky {
 .profile-image {
     border-radius: 50%;
     display: block;
-    max-width: 350px;
+    max-width: 200px;
     margin: 0 auto 1em;
     width: 100%;
+    border: #23648f solid 5px;
+    transition: all .5s;
+  }
+
+  .profile-image:hover {
+    transform: scale(2) rotate(360deg);
   }
 
   .card-deck .card {
@@ -167,6 +180,11 @@ nav.sticky {
 
   h2 {
     font-family: 'Henny Penny', cursive;
+    font-size: 2em;
+  }
+
+  p {
+      font-weight:300;
   }
 
 .splash .lead, .splash .continue {
@@ -295,7 +313,7 @@ nav.sticky {
 }
 
 @media (min-width: 768px) {
-    nav .nav-toggle {
+   /* nav .nav-toggle {
         display: none;
     }
 
@@ -321,7 +339,7 @@ nav.sticky {
 
     nav ul li a{
         padding: 0;
-    }
+    }*/
 
     .splash h1 {
         font-size: 6em;
